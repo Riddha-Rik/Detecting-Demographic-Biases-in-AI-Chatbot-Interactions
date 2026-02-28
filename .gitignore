@@ -1,0 +1,20 @@
+# Ignore API Keys and Secrets
+.env
+config.py
+secrets.txt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter / Colab Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (Optional: keep these if you want others to see your results)
+# *.csv 
+
+# OS generated files
+.DS_Store
+Thumbs.db
