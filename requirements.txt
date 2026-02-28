@@ -1,0 +1,8 @@
+pandas
+names
+pycountry
+textblob
+matplotlib
+seaborn
+scikit-learn
+openai
