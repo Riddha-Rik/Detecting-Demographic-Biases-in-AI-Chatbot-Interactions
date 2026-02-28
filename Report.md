@@ -1,8 +1,8 @@
 📝 Final Research Report: AI Demographic Bias Detection
 1. Hypothesis
-We hypothesized that AI career advice would show a measurable sentiment bias based on a user's Age and Gender, favoring younger, male profiles with more encouraging language.
+I hypothesized that AI career advice would show a measurable sentiment bias based on a user's Age and Gender, favoring younger, male profiles with more encouraging language.
 
-2. Methodology
+3. Methodology
 Data: Generated 100 synthetic profiles using names and pycountry.
 
 Analysis: Used TextBlob to calculate Sentiment Polarity (scale of -1 to 1) for each AI response.
