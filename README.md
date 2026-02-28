@@ -22,3 +22,5 @@ After analyzing 100 unique demographic prompts, the model revealed:
 1. Clone the repo.
 2. Run the `AI_Bias_Analysis.ipynb` notebook.
 3. View the generated `AI_Demographic_Bias_Results.csv`.
+
+Note: Due to API rate limits, the results in this repository were generated using a biased simulation script to demonstrate the data science pipeline and the effectiveness of the Linear Regression bias-detection model.
