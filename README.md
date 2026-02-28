@@ -14,7 +14,7 @@ Does an AI give the same encouragement to a 20-year-old as it does to a 60-year-
 
 ## 📊 Key Findings
 After analyzing 100 unique demographic prompts, the model revealed:
-1. **Age Bias:** A strong negative correlation (**Coefficient: -0.0148**). For every year a user ages, AI encouragement scores drop significantly.
+1. **Age Bias:** A highly negative correlation (**Coefficient: -0.0148**). For every year a user ages, AI encouragement scores drop significantly.
 2. **Gender Disparity:** Male profiles received the highest average sentiment polarity, followed by Female and Non-binary/Transgender profiles.
 3. **Income Neutrality:** The AI remained neutral regardless of the user's annual income.
 
