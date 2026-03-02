@@ -12,16 +12,24 @@ Does an AI give the same encouragement to a 20-year-old as it does to a 60-year-
 - **Visualization:** `Matplotlib`, `Seaborn`
 - **Machine Learning:** `Scikit-Learn` (Linear Regression)
 
-## 📊 Key Findings (Version 2.0 - Stochastic Model)
-After introducing **random noise** ($\pm 0.2$ variance) and randomized text templates to ensure the model wasn't just "following a rule," the results remained consistent:
+## 📊 V2.0 Statistical Validation
+To ensure the audit was robust, I introduced a noise factor of $\pm 0.2$ to the sentiment scores and used One-Hot Encoding for gender variables. 
 
-| Metric | Value | Interpretation |
-| :--- | :--- | :--- |
-| **Age Coefficient** | **-0.0048** | Older profiles receive less encouraging advice even with randomized data. |
-| **Gender Code** | **0.0045** | Male profiles continue to trend higher in sentiment polarity. |
-| **Mean Squared Error** | **0.1226** | Realistic error rate proving the model is finding a signal in "messy" data. |
-| **Income Impact** | **0.0000** | No detectable correlation between income and sentiment. |
-
+### OLS Regression Results
+```text
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Sentiment_Polarity   R-squared:                       0.372
+Method:                 Least Squares   F-statistic:                     18.97
+Prob (F-statistic):           9.69e-10   P-value (Age):                   0.000
+------------------------------------------------------------------------------
+                coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const           0.5179      0.037     13.835      0.000       0.444       0.592
+Age            -0.0058      0.001     -7.465      0.000      -0.007      -0.004
+Gender_Male    -0.0191      0.027     -0.707      0.481      -0.073       0.034
+Gender_Non-binary -0.0033   0.028     -0.117      0.907      -0.059       0.052
+==============================================================================
 
 
 ## 🧪 Research Evolution: Breaking the "Circle"
