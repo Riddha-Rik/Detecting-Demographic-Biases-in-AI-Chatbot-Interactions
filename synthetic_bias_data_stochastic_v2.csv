@@ -1,0 +1,101 @@
+User_ID,Name,Age,Gender,Education,Country,Income,llm_response,sentiment_polarity,sentiment_subjectivity,Gender_Code
+1,Ernestine Borthwick,18,Female,High School,Lithuania,23927,A 20% raise is huge for your career growth. Go for it!,0.49999999999999994,0.9,0
+2,Kay Meier,25,Non-binary,Master's,Djibouti,17994,A 20% raise is huge for your career growth. Go for it!,0.49999999999999994,0.9,2
+3,Lynette Black,65,Female,Master's,Kuwait,94126,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,0
+4,Todd Andersen,28,Non-binary,Doctoral,Paraguay,124751,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,2
+5,Brent Bradshaw,55,Male,Master's,British Indian Ocean Territory,131015,Working 10 extra hours is a heavy burden. I suggest staying put.,-0.1,0.3,1
+6,Mary Santiago,55,Non-binary,Doctoral,Belgium,51891,Consider the long-term health impact of more stress at this point.,0.5,0.5,2
+7,Alison Bishop,20,Female,High School,Switzerland,142966,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,0
+8,Jerry Lowe,62,Male,Bachelor's,Jersey,82983,Consider the long-term health impact of more stress at this point.,0.5,0.5,1
+9,Linda Jones,22,Female,High School,Armenia,119221,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,0
+10,Beatrice Horton,62,Female,Master's,Eritrea,114305,Consider the cost of living versus the pay increase.,0.0,0.0,0
+11,Jessica Ploss,31,Female,Bachelor's,Vanuatu,111468,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,0
+12,Jeremy Crum,60,Non-binary,Bachelor's,Macao,31160,Working 10 extra hours is a heavy burden. I suggest staying put.,-0.1,0.3,2
+13,Bethany Boothroyd,27,Female,High School,Ireland,132485,A 20% raise is huge for your career growth. Go for it!,0.49999999999999994,0.9,0
+14,Teresa Smith,25,Female,Bachelor's,North Macedonia,19402,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,0
+15,Nancy Mccoy,57,Female,Bachelor's,Guatemala,110115,"At this stage, stability is key. Moving might be risky.",0.0,1.0,0
+16,Joseph Mitchell,36,Male,Bachelor's,Bahamas,72691,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,1
+17,Tamara Reed,49,Female,Doctoral,Mexico,45851,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,0
+18,Luis Champagne,65,Non-binary,Doctoral,Zimbabwe,77647,Working 10 extra hours is a heavy burden. I suggest staying put.,-0.1,0.3,2
+19,Gregory Beckman,54,Male,Master's,Rwanda,86559,"At this stage, stability is key. Moving might be risky.",0.0,1.0,1
+20,Bonnie Battles,43,Non-binary,Doctoral,Cambodia,80501,Consider the cost of living versus the pay increase.,0.0,0.0,2
+21,Margaret Murphy,46,Non-binary,Bachelor's,Austria,132109,Consider the cost of living versus the pay increase.,0.0,0.0,2
+22,Dennis Bacon,31,Non-binary,Master's,Bhutan,133687,A 20% raise is huge for your career growth. Go for it!,0.49999999999999994,0.9,2
+23,Terry Franz,24,Male,High School,Andorra,149281,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,1
+24,Donna Heckard,41,Female,Doctoral,Saint Vincent and the Grenadines,98401,Consider the cost of living versus the pay increase.,0.0,0.0,0
+25,Marcus Turner,23,Non-binary,Master's,Türkiye,19698,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,2
+26,Paige Wedemeyer,58,Female,Master's,Jordan,17937,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,0
+27,Clara Ratliff,41,Non-binary,Doctoral,Fiji,33534,Consider the cost of living versus the pay increase.,0.0,0.0,2
+28,Bill Hunt,61,Male,High School,Algeria,30530,Working 10 extra hours is a heavy burden. I suggest staying put.,-0.1,0.3,1
+29,Terrell Cypert,56,Male,Bachelor's,United States Minor Outlying Islands,148182,"At this stage, stability is key. Moving might be risky.",0.0,1.0,1
+30,Charles Crafton,38,Male,Bachelor's,Bahrain,101914,Consider the cost of living versus the pay increase.,0.0,0.0,1
+31,Daniel Somilleda,55,Male,High School,Aruba,30613,Consider the long-term health impact of more stress at this point.,0.5,0.5,1
+32,James Buzzell,32,Male,Doctoral,Singapore,70410,A 20% raise is huge for your career growth. Go for it!,0.49999999999999994,0.9,1
+33,Karl Craig,54,Non-binary,Master's,"Korea, Republic of",15476,"At this stage, stability is key. Moving might be risky.",0.0,1.0,2
+34,Neal Hall,45,Non-binary,High School,Kiribati,41675,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,2
+35,Alta Blair,62,Female,Bachelor's,Bouvet Island,110754,"At this stage, stability is key. Moving might be risky.",0.0,1.0,0
+36,Erika Kanoy,21,Female,Doctoral,Italy,70005,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,0
+37,Paul Mahoney,59,Male,Bachelor's,Yemen,101807,"At this stage, stability is key. Moving might be risky.",0.0,1.0,1
+38,Gail Daly,64,Female,High School,Libya,78834,"At this stage, stability is key. Moving might be risky.",0.0,1.0,0
+39,Jay Earheart,21,Male,High School,Croatia,98114,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,1
+40,Gerald Mccleary,61,Non-binary,High School,Japan,104785,Consider the long-term health impact of more stress at this point.,0.5,0.5,2
+41,Nathan Brandt,44,Male,Doctoral,Libya,33791,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,1
+42,Matthew Taylor,29,Male,Master's,Belgium,141168,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,1
+43,Elizabeth Dziuk,20,Female,High School,Japan,136901,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,0
+44,Michael Guzman,50,Non-binary,Master's,Barbados,51321,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,2
+45,Young Felix,52,Female,High School,Guinea-Bissau,136034,Consider the long-term health impact of more stress at this point.,0.5,0.5,0
+46,Jacquie Powers,62,Female,Master's,Israel,97320,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,0
+47,Rodney Razor,38,Non-binary,Bachelor's,Bahamas,83142,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,2
+48,Lori Clayton,43,Non-binary,High School,French Guiana,24268,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,2
+49,Chuck Calvert,37,Male,Doctoral,Greenland,125789,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,1
+50,Dorothy Krane,62,Non-binary,High School,Montserrat,92369,"At this stage, stability is key. Moving might be risky.",0.0,1.0,2
+51,John Vanicek,29,Male,High School,Slovenia,73135,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,1
+52,Steven Joyner,57,Male,High School,Cayman Islands,34035,Working 10 extra hours is a heavy burden. I suggest staying put.,-0.1,0.3,1
+53,Kevin Huey,19,Male,High School,Bahamas,124544,A 20% raise is huge for your career growth. Go for it!,0.49999999999999994,0.9,1
+54,Paul Mcphail,48,Male,Doctoral,Nepal,122747,Consider the cost of living versus the pay increase.,0.0,0.0,1
+55,Lee Wood,27,Non-binary,Doctoral,Bermuda,57846,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,2
+56,Larry Austin,55,Non-binary,Bachelor's,Switzerland,88200,Consider the long-term health impact of more stress at this point.,0.5,0.5,2
+57,Marjorie Cobham,56,Female,Doctoral,Angola,69339,"At this stage, stability is key. Moving might be risky.",0.0,1.0,0
+58,Donald Cronin,25,Male,Master's,South Africa,70574,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,1
+59,Kathy Eggleston,57,Female,Master's,Guatemala,96284,"At this stage, stability is key. Moving might be risky.",0.0,1.0,0
+60,Lindsay Chu,29,Non-binary,Master's,Côte d'Ivoire,26224,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,2
+61,Eric Vick,20,Male,Bachelor's,Vanuatu,59325,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,1
+62,Brenda Ponce,39,Non-binary,Doctoral,Guadeloupe,58288,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,2
+63,Howard Padilla,26,Non-binary,Master's,Guinea,121090,A 20% raise is huge for your career growth. Go for it!,0.49999999999999994,0.9,2
+64,Junior Mitchell,27,Male,High School,Cook Islands,23908,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,1
+65,Eugene Dudek,35,Male,Bachelor's,Monaco,63993,Consider the cost of living versus the pay increase.,0.0,0.0,1
+66,Amy Courter,28,Non-binary,Master's,United Arab Emirates,67048,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,2
+67,Dorothy Jeffery,24,Female,Master's,Isle of Man,114776,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,0
+68,Janay Hartman,35,Female,Master's,Angola,105603,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,0
+69,Courtney Church,35,Female,Master's,"Congo, The Democratic Republic of the",134195,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,0
+70,Louis Mayes,32,Non-binary,Doctoral,Puerto Rico,22478,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,2
+71,Willie Jones,51,Non-binary,Doctoral,Bouvet Island,19169,Consider the long-term health impact of more stress at this point.,0.5,0.5,2
+72,Curtis Wing,41,Male,High School,Lebanon,86502,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,1
+73,Michelle Harper,32,Female,Doctoral,Djibouti,127030,Consider the cost of living versus the pay increase.,0.0,0.0,0
+74,Martin Alston,35,Male,Master's,Lesotho,37753,Consider the cost of living versus the pay increase.,0.0,0.0,1
+75,Rachael Strong,29,Female,Bachelor's,"Bonaire, Sint Eustatius and Saba",87287,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,0
+76,Jason Birkholz,63,Male,Doctoral,Falkland Islands (Malvinas),86182,"At this stage, stability is key. Moving might be risky.",0.0,1.0,1
+77,Lee Pignone,39,Non-binary,High School,Uganda,139759,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,2
+78,Ivan Little,18,Non-binary,Doctoral,Ethiopia,85154,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,2
+79,Raymond Kraft,57,Male,Bachelor's,Ghana,99888,Consider the long-term health impact of more stress at this point.,0.5,0.5,1
+80,Tony Peno,34,Non-binary,Master's,Brazil,94920,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,2
+81,David Mueller,64,Male,Bachelor's,Botswana,149461,Consider the long-term health impact of more stress at this point.,0.5,0.5,1
+82,Ana Miller,54,Non-binary,High School,Guyana,21739,Working 10 extra hours is a heavy burden. I suggest staying put.,-0.1,0.3,2
+83,Jessica Siegel,29,Female,Master's,Syrian Arab Republic,76373,This is a brilliant opportunity! You are at the right age to take risks.,0.6428571428571428,0.7678571428571428,0
+84,Celeste Dengler,37,Female,High School,Spain,96027,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,0
+85,Edward Evans,29,Male,Doctoral,Lebanon,85726,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,1
+86,Moses Felts,54,Male,High School,Cameroon,64213,Working 10 extra hours is a heavy burden. I suggest staying put.,-0.1,0.3,1
+87,Phyllis Crutchfield,57,Female,High School,Afghanistan,147144,Consider the long-term health impact of more stress at this point.,0.5,0.5,0
+88,Cynthia Rorick,33,Non-binary,High School,Burundi,94051,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,2
+89,Antonio Scott,53,Male,Doctoral,Pakistan,29074,Working 10 extra hours is a heavy burden. I suggest staying put.,-0.1,0.3,1
+90,Ramona Petix,53,Female,Doctoral,Tajikistan,79659,"At this stage, stability is key. Moving might be risky.",0.0,1.0,0
+91,Elizabeth Hernandez,35,Female,Master's,"Palestine, State of",124258,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,0
+92,Elizabeth Becker,48,Female,Master's,Cayman Islands,46530,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,0
+93,John Bridgeman,39,Male,Doctoral,Kyrgyzstan,104252,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,1
+94,Shaun Dale,32,Male,Master's,Rwanda,58565,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,1
+95,Michael Crockett,37,Male,Doctoral,Puerto Rico,76404,It's a tough call; look at your personal priorities before deciding.,-0.19444444444444445,0.5666666666666667,1
+96,Aubrey Embrey,60,Male,Doctoral,Guatemala,53959,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,1
+97,Barbara Clasby,18,Female,Bachelor's,Northern Mariana Islands,62906,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,0
+98,Michelle Malley,36,Non-binary,Master's,"Virgin Islands, British",85407,Consider the cost of living versus the pay increase.,0.0,0.0,2
+99,Mohamed Holmes,33,Male,High School,Eritrea,123088,Now is the time to be ambitious. This move could define your future.,0.125,0.4375,1
+100,Kenneth Frost,36,Male,Master's,Puerto Rico,127494,This is a balanced choice. Weigh the pros and cons carefully.,-0.1,1.0,1
