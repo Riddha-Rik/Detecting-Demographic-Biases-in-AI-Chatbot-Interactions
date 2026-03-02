@@ -24,3 +24,11 @@ After analyzing 100 unique demographic prompts, the model revealed:
 3. View the generated `AI_Demographic_Bias_Results.csv`.
 
 Note: Due to API rate limits, the results in this repository were generated using a biased simulation script to demonstrate the data science pipeline and the effectiveness of the Linear Regression bias-detection model.
+
+## 🤝 Acknowledgements & Peer Review
+This project was developed under the mentorship of **Dr. Himel Dev (PhD, Founder and CEO of 529 Tech)**. 
+
+During the development of Version 1.0, Dr. Dev provided a critical evaluation regarding the "circular" nature of the initial simulation. Based on his feedback concerning methodological refinement and statistical interpretation, Version 2.0 was developed to include:
+* **Stochastic Modeling:** Transitioning from deterministic rules to noisy, randomized data.
+* **OLS Regression:** Implementing Ordinary Least Squares with P-value validation.
+* **Categorical Encoding:** Utilizing One-Hot Encoding (Dummy Variables) for demographic accuracy.
