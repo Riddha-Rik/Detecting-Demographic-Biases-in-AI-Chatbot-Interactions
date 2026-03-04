@@ -1,19 +1,32 @@
-# Ignore API Keys and Secrets
-.env
-config.py
-secrets.txt
-
-# Python cache files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter / Colab Notebook checkpoints
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# Data files (Optional: keep these if you want others to see your results)
-# *.csv 
+# Virtual Environments
+venv/
+env/
+.env
+.venv
+
+# Data files (Exclude large datasets to save repo space)
+# We often keep the metadata or a sample, but ignore the full CSV
+*.csv
+*.json
+*.xlsx
+
+# Regression Reports and Figures
+# Exclude locally generated reports so they don't overwrite each other
+AI_Fairness_Audit_Report.csv
+*.png
+*.pdf
+
+# IDE settings
+.vscode/
+.idea/
 
 # OS generated files
 .DS_Store
