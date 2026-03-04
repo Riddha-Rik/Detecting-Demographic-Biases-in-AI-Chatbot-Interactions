@@ -1,0 +1,6 @@
+Metric,Value,Status
+Total Candidates,1500,Complete
+Human-AI Agreement,90.60%,High
+Avg Scoring Friction,11.49,Acceptable
+Age Bias (p-value),0.5430,PASS
+Education Bias (p-value),0.0000,PASS
