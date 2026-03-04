@@ -1,34 +1,44 @@
-# Detecting-Demographic-Biases-in-AI-Chatbot-Interactions
-An end-to-end Python pipeline detecting demographic bias in AI career advice. Using a synthetic dataset of 100 profiles (names/pycountry), I performed sentiment analysis via TextBlob and trained a Scikit-Learn regression model. Found a significant age-based bias (coeff: -0.0148), proving AI gives less encouraging advice as age increases.
-# 🤖 AI Career Bias Detector
-An end-to-end data science pipeline to quantify demographic "blindspots" in AI career advice.
+# AI Bias Auditor: Organic Hiring Data Analysis
 
 ## 📌 Project Overview
-Does an AI give the same encouragement to a 20-year-old as it does to a 60-year-old? This project uses **Natural Language Processing (NLP)** and **Machine Learning** to detect if AI chatbots provide biased sentiment based on Age, Gender, and Education.
+This project is an automated auditing suite designed to detect systemic bias within AI-driven hiring models. By analyzing 1,500 candidate records, this tool evaluates whether factors like **Age (Experience)**, **Education Level**, or **Intersectional Traits** unfairly influence the AI's hiring decisions compared to human recruiters.
 
-## 🛠️ The Tech Stack
-- **Data Generation:** Python, `names`, `pycountry` (100 Synthetic Profiles)
-- **Sentiment Analysis:** `TextBlob` (Polarity & Subjectivity)
-- **Visualization:** `Matplotlib`, `Seaborn`
-- **Machine Learning:** `Scikit-Learn` (Linear Regression)
+This repository serves as an extension of the core Informatics project, focused on **Algorithmic Accountability** and **AI Ethics**.
 
-## 📊 Key Findings
-After analyzing 100 unique demographic prompts, the model revealed:
-1. **Age Bias:** A highly negative correlation (**Coefficient: -0.0148**). For every year a user ages, AI encouragement scores drop significantly.
-2. **Gender Disparity:** Male profiles received the highest average sentiment polarity, followed by Female and Non-binary/Transgender profiles.
-3. **Income Neutrality:** The AI remained neutral regardless of the user's annual income.
 
-## 🚀 How to Run
-1. Clone the repo.
-2. Run the `AI_Bias_Analysis.ipynb` notebook.
-3. View the generated `AI_Demographic_Bias_Results.csv`.
 
-Note: Due to API rate limits, the results in this repository were generated using a biased simulation script to demonstrate the data science pipeline and the effectiveness of the Linear Regression bias-detection model.
+## 🛠 Features
+- **Negative Result Auditing:** Proves the absence of bias using statistical significance (P-Values).
+- **Multi-Factor OLS Regression:** Analyzes how specific variables (like PhD vs. Bachelors) affect final scores.
+- **Logistic Regression Analysis:** Audits the binary "Hire/No-Hire" decision logic to see if probability of selection is skewed.
+- **Intersectional Stress Testing:** Checks for "hidden" biases where multiple factors combine (e.g., Highly experienced + PhD).
+- **Decision Friction Heatmaps:** Visualizes the "Divergence Gap" where human intuition and AI logic disagree most.
 
-## 🤝 Acknowledgements & Peer Review
-This project was developed under the mentorship of **Dr. Himel Dev (PhD, Founder and CEO of 529 Tech)**. 
+## 📊 Key Findings (Audit V5.0)
+- **Merit-First Logic:** The model shows a **0.98 correlation** between Skill Fit and AI Scores, proving high alignment with objective qualifications.
+- **Age Neutrality:** No statistically significant age bias was found across the dataset ($P > 0.50$).
+- **High Alignment:** Human recruiters and the AI model achieved a **90.6% agreement rate** on final hiring decisions.
+- **Education Fairness:** The model maintains consistent standards across all degree levels; no significant "Credentialism" was detected.
 
-During the development of Version 1.0, Dr. Dev provided a critical evaluation regarding the "circular" nature of the initial simulation. Based on his feedback concerning methodological refinement and statistical interpretation, Version 2.0 was developed to include:
-* **Stochastic Modeling:** Transitioning from deterministic rules to noisy, randomized data.
-* **OLS Regression:** Implementing Ordinary Least Squares with P-value validation.
-* **Categorical Encoding:** Utilizing One-Hot Encoding (Dummy Variables) for demographic accuracy.
+
+
+## 🚀 Tech Stack
+- **Language:** Python 3.x
+- **Core Libraries:** - `pandas`: Data manipulation and feature engineering.
+  - `statsmodels`: Advanced statistical modeling and OLS/Logit regressions.
+  - `plotly`: Interactive data visualization and heatmap generation.
+- **Version Control:** Git (Branching strategy: `feature/bias-auditor-v5`)
+
+## 📂 Dataset Structure
+The audit utilizes `ai_hiring_audit_dataset.csv`, containing:
+- `Candidate_ID`: Unique identifier.
+- `Years_Experience`: Proxy for candidate age.
+- `Skill_Fit_Score`: Normalized merit score based on testing.
+- `AI_Decision` / `Human_Decision`: Binary outcomes (0=Reject, 1=Hire).
+- `Score_Divergence`: The mathematical delta between human and machine ratings.
+
+## 📈 How to Run
+1. Clone the repository.
+2. Switch to the audit branch:
+   ```bash
+   git checkout feature/bias-auditor-v5
