@@ -1,13 +1,13 @@
 # 🛡️ Technical Comparison Report: AI Bias Auditing Evolution
 
 ## 1. Executive Summary
-This report analyzes the transition from Project Alpha (Synthetic Bias Detection) to the current Project Extension (v5.0 Organic Decision Audit). While the initial phase established the feasibility of using regression to find age-based sentiment trends, this extension introduces high-fidelity organic data and advanced statistical methodologies to audit actual hiring outcomes.
+This report analyzes the transition from Project Alpha (Synthetic Bias Detection) to the current Project Extension (v3.0 Organic Decision Audit). While the initial phase established the feasibility of using regression to find age-based sentiment trends, this extension introduces high-fidelity organic data and advanced statistical methodologies to audit actual hiring outcomes.
 
 
 
 ## 2. Methodology Comparison
 
-| Feature | Project Alpha (Baseline) | Project Extension (v5.0) |
+| Feature | Project Alpha (Baseline) | Project Extension (v3.0) |
 | :--- | :--- | :--- |
 | **Data Fidelity** | Synthetic (Python-generated) | Organic (1,500 real-world records) |
 | **Primary Variable** | Sentiment Polarity (-1 to 1) | AI Hiring Decision (Binary 0/1) |
@@ -31,15 +31,15 @@ By calculating `Score_Divergence` (Human Score - AI Score), we moved beyond audi
 ## 4. Comparative Findings
 
 * **Project Alpha:** Indicated a subtle bias in career advice for older candidates (Negative Coefficient).
-* **Project Extension (v5.0):** Proved that in a structured hiring environment, the AI is **statistically neutral** regarding age ($P = 0.555$ for decisions), showing a high **90.6% agreement rate** with human recruiters.
+* **Project Extension (v3.0):** Proved that in a structured hiring environment, the AI is **statistically neutral** regarding age ($P = 0.555$ for decisions), showing a high **90.6% agreement rate** with human recruiters.
 
 ## 5. Implementation Status
-The v5.0 branch is significantly more robust for professional use. It includes:
+The v3.0 branch is significantly more robust for professional use. It includes:
 - **`requirements.txt`**: For environment reproducibility.
 - **`.gitignore`**: For data security and repo cleanliness.
 - **`README.md`**: For stakeholder communication.
 
 ---
 **Status:** ✅ EXTENSION COMPLETE  
-**Branch:** `feature/bias-auditor-v5`  
+**Branch:** `feature/bias-auditor-v3`  
 **Date:** March 2026
