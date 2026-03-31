@@ -14,7 +14,7 @@ This repository serves as an extension of the core Informatics project, focused 
 - **Intersectional Stress Testing:** Checks for "hidden" biases where multiple factors combine (e.g., Highly experienced + PhD).
 - **Decision Friction Heatmaps:** Visualizes the "Divergence Gap" where human intuition and AI logic disagree most.
 
-## 📊 Key Findings (Audit V5.0)
+## 📊 Key Findings (Audit V3.0)
 - **Merit-First Logic:** The model shows a **0.98 correlation** between Skill Fit and AI Scores, proving high alignment with objective qualifications.
 - **Age Neutrality:** No statistically significant age bias was found across the dataset ($P > 0.50$).
 - **High Alignment:** Human recruiters and the AI model achieved a **90.6% agreement rate** on final hiring decisions.
